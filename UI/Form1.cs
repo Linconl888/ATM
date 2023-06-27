@@ -6,5 +6,12 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CardLogin cardLogin= new CardLogin();
+            cardLogin.Show();
+        }
     }
 }
