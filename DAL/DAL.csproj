@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="cardAccess.cs" />
     <Compile Include="DBbase.cs" />
+    <Compile Include="DDBC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectByIdIpml.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">

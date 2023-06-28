@@ -14,8 +14,9 @@ namespace DAL
         //卡号登录的方法
         public int cardLogin(string cardID, string psw)
         {
-            string strsql = "select * from CardInfo where cardID = '" + cardID + "' and cardPwd = '" + psw + "'";
+            string strsql = "select * from Card where card_id = '" + cardID + "' and password = '" + psw + "'";
             return db.returnRowCount(strsql);
         }
+
     }
 }
