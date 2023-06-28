@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class Fmain : Form
+    public partial class UserOperation : Form
     {
-        public Fmain()
+        public UserOperation()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void archButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
