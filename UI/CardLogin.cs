@@ -34,8 +34,8 @@ namespace UI
             if (b_cardAccess.cardLogin(m_cardInfo) > 0)
             {
                 this.Hide();
-                Fmain fmain = new Fmain();
-                fmain.Show();
+                UserOperation userOperation = new UserOperation();
+                userOperation.Show();
             }
             else
             {
