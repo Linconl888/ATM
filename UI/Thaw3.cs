@@ -16,5 +16,10 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void Thaw3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

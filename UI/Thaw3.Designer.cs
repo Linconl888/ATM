@@ -76,6 +76,7 @@
             Controls.Add(label1);
             Name = "Thaw3";
             Text = "Thaw3";
+            Load += Thaw3_Load;
             ResumeLayout(false);
             PerformLayout();
         }
