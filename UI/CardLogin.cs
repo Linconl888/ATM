@@ -33,12 +33,19 @@ namespace UI
             //如果BLL层中 useLogin调用返回记录条数 大于1 则账号密码正确
             if (b_cardAccess.cardLogin(m_cardInfo) > 0)
             {
-                MessageBox.Show("登录成功");
+                this.Hide();
+                Fmain fmain = new Fmain();
+                fmain.Show();
             }
             else
             {
                 MessageBox.Show("登录失败");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
